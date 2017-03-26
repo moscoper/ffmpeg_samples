@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7267FCBC1E80215C007FC939 /* avio_reading.c in Sources */ = {isa = PBXBuildFile; fileRef = 7267FCBB1E80215C007FC939 /* avio_reading.c */; };
+		7267FCC61E802245007FC939 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCC31E802245007FC939 /* libiconv.2.4.0.tbd */; };
+		7267FCC71E802245007FC939 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCC41E802245007FC939 /* libiconv.2.tbd */; };
+		7267FCC81E802245007FC939 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCC51E802245007FC939 /* libiconv.tbd */; };
+		7267FCCE1E802279007FC939 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCC91E802279007FC939 /* libavcodec.a */; };
+		7267FCCF1E802279007FC939 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCCA1E802279007FC939 /* libavdevice.a */; };
+		7267FCD01E802279007FC939 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCCB1E802279007FC939 /* libavfilter.a */; };
+		7267FCD11E802279007FC939 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCCC1E802279007FC939 /* libavformat.a */; };
+		7267FCD21E802279007FC939 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCCD1E802279007FC939 /* libavutil.a */; };
+		7267FCD41E802298007FC939 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCD31E802298007FC939 /* libswscale.a */; };
+		7267FCF31E80318C007FC939 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCF21E80318C007FC939 /* libbz2.tbd */; };
+		7267FD091E803B35007FC939 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCDD1E802F40007FC939 /* CoreVideo.framework */; };
+		7267FD0A1E803B41007FC939 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCDF1E802F7F007FC939 /* VideoToolbox.framework */; };
+		7267FD0B1E803B5F007FC939 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCD51E802C2C007FC939 /* AudioToolbox.framework */; };
+		7267FD0E1E803BF0007FC939 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCDB1E802DDF007FC939 /* CoreMedia.framework */; };
+		7267FD101E803C03007FC939 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD0F1E803C03007FC939 /* CoreServices.framework */; };
+		7267FD161E803D63007FC939 /* libx264.148.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD151E803D63007FC939 /* libx264.148.dylib */; };
+		7267FD181E803D8E007FC939 /* libfdk-aac.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD171E803D8E007FC939 /* libfdk-aac.1.dylib */; };
+		7267FD1E1E803E56007FC939 /* libvpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD1D1E803E56007FC939 /* libvpx.a */; };
+		7267FD261E81779F007FC939 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD251E81779F007FC939 /* libz.1.2.5.tbd */; };
+		7267FD281E8177B9007FC939 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD271E8177B9007FC939 /* libbz2.1.0.tbd */; };
+		7267FD291E8177FD007FC939 /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FCEC1E8030CD007FC939 /* VideoDecodeAcceleration.framework */; };
+		7267FD2B1E81783C007FC939 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD2A1E81783C007FC939 /* CoreFoundation.framework */; };
+		7267FD2F1E8179F3007FC939 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD2E1E8179F3007FC939 /* libopus.a */; };
+		7267FD321E817B60007FC939 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD311E817B60007FC939 /* libswresample.a */; };
+		7267FD361E817D43007FC939 /* SecurityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD351E817D43007FC939 /* SecurityFoundation.framework */; };
+		7267FD381E817D85007FC939 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7267FD371E817D85007FC939 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7267FCB61E80215C007FC939 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7267FCB81E80215C007FC939 /* avio_reading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = avio_reading; sourceTree = BUILT_PRODUCTS_DIR; };
+		7267FCBB1E80215C007FC939 /* avio_reading.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = avio_reading.c; sourceTree = "<group>"; };
+		7267FCC31E802245007FC939 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		7267FCC41E802245007FC939 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		7267FCC51E802245007FC939 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		7267FCC91E802279007FC939 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../../../../usr/local/lib/libavcodec.a; sourceTree = "<group>"; };
+		7267FCCA1E802279007FC939 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = ../../../../../usr/local/lib/libavdevice.a; sourceTree = "<group>"; };
+		7267FCCB1E802279007FC939 /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = ../../../../../usr/local/lib/libavfilter.a; sourceTree = "<group>"; };
+		7267FCCC1E802279007FC939 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../usr/local/lib/libavformat.a; sourceTree = "<group>"; };
+		7267FCCD1E802279007FC939 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../../../../usr/local/lib/libavutil.a; sourceTree = "<group>"; };
+		7267FCD31E802298007FC939 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../../../../../usr/local/lib/libswscale.a; sourceTree = "<group>"; };
+		7267FCD51E802C2C007FC939 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7267FCD71E802D15007FC939 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		7267FCD91E802D64007FC939 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		7267FCDB1E802DDF007FC939 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7267FCDD1E802F40007FC939 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7267FCDF1E802F7F007FC939 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		7267FCE11E802FAC007FC939 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		7267FCE31E802FCC007FC939 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		7267FCE51E803038007FC939 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		7267FCE71E803098007FC939 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		7267FCEB1E8030CD007FC939 /* AudioVideoBridging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioVideoBridging.framework; path = System/Library/Frameworks/AudioVideoBridging.framework; sourceTree = SDKROOT; };
+		7267FCEC1E8030CD007FC939 /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
+		7267FCEF1E8030EC007FC939 /* libauto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libauto.tbd; path = usr/lib/libauto.tbd; sourceTree = SDKROOT; };
+		7267FCF21E80318C007FC939 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		7267FCF41E8031CD007FC939 /* libcoretls.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcoretls.tbd; path = usr/lib/libcoretls.tbd; sourceTree = SDKROOT; };
+		7267FCF61E8031DB007FC939 /* libcoretls_cfhelpers.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcoretls_cfhelpers.tbd; path = usr/lib/libcoretls_cfhelpers.tbd; sourceTree = SDKROOT; };
+		7267FCF71E8031DB007FC939 /* libsystem_coretls.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsystem_coretls.tbd; path = usr/lib/system/libsystem_coretls.tbd; sourceTree = SDKROOT; };
+		7267FCFB1E803386007FC939 /* libsystem_asl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsystem_asl.tbd; path = usr/lib/system/libsystem_asl.tbd; sourceTree = SDKROOT; };
+		7267FCFF1E803413007FC939 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7267FD011E80362B007FC939 /* libsystem_coreservices.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsystem_coreservices.tbd; path = usr/lib/system/libsystem_coreservices.tbd; sourceTree = SDKROOT; };
+		7267FD041E80369B007FC939 /* dylib1.10.5.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = dylib1.10.5.o; path = usr/lib/dylib1.10.5.o; sourceTree = SDKROOT; };
+		7267FD0F1E803C03007FC939 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		7267FD111E803C28007FC939 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		7267FD131E803C7B007FC939 /* libbz2.1.0.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.5.tbd; path = usr/lib/libbz2.1.0.5.tbd; sourceTree = SDKROOT; };
+		7267FD151E803D63007FC939 /* libx264.148.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libx264.148.dylib; path = ../../../../../usr/local/Cellar/x264/r2601/lib/libx264.148.dylib; sourceTree = "<group>"; };
+		7267FD171E803D8E007FC939 /* libfdk-aac.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libfdk-aac.1.dylib"; path = "../../../../../usr/local/Cellar/fdk-aac/0.1.4/lib/libfdk-aac.1.dylib"; sourceTree = "<group>"; };
+		7267FD191E803DCC007FC939 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = ../../../../../usr/local/Cellar/x264/r2601/lib/libx264.a; sourceTree = "<group>"; };
+		7267FD1B1E803E00007FC939 /* DVDPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVDPlayback.framework; path = System/Library/Frameworks/DVDPlayback.framework; sourceTree = SDKROOT; };
+		7267FD1D1E803E56007FC939 /* libvpx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvpx.a; path = ../../../../../usr/local/Cellar/libvpx/1.5.0/lib/libvpx.a; sourceTree = "<group>"; };
+		7267FD1F1E803E8C007FC939 /* libopus.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopus.0.dylib; path = ../../../../../usr/local/Cellar/opus/1.1.2/lib/libopus.0.dylib; sourceTree = "<group>"; };
+		7267FD211E803F8D007FC939 /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng16.16.dylib; path = ../../../../../usr/local/Cellar/libpng/1.6.21/lib/libpng16.16.dylib; sourceTree = "<group>"; };
+		7267FD251E81779F007FC939 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		7267FD271E8177B9007FC939 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		7267FD2A1E81783C007FC939 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7267FD2C1E8179B6007FC939 /* dylib1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = dylib1.o; path = usr/lib/dylib1.o; sourceTree = SDKROOT; };
+		7267FD2E1E8179F3007FC939 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopus.a; path = ../../../../../usr/local/Cellar/opus/1.1.2/lib/libopus.a; sourceTree = "<group>"; };
+		7267FD311E817B60007FC939 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../../../../../usr/local/lib/libswresample.a; sourceTree = "<group>"; };
+		7267FD351E817D43007FC939 /* SecurityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityFoundation.framework; path = System/Library/Frameworks/SecurityFoundation.framework; sourceTree = SDKROOT; };
+		7267FD371E817D85007FC939 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7267FCB51E80215C007FC939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7267FD381E817D85007FC939 /* Security.framework in Frameworks */,
+				7267FD361E817D43007FC939 /* SecurityFoundation.framework in Frameworks */,
+				7267FD321E817B60007FC939 /* libswresample.a in Frameworks */,
+				7267FD2F1E8179F3007FC939 /* libopus.a in Frameworks */,
+				7267FD0E1E803BF0007FC939 /* CoreMedia.framework in Frameworks */,
+				7267FD2B1E81783C007FC939 /* CoreFoundation.framework in Frameworks */,
+				7267FD291E8177FD007FC939 /* VideoDecodeAcceleration.framework in Frameworks */,
+				7267FD281E8177B9007FC939 /* libbz2.1.0.tbd in Frameworks */,
+				7267FD261E81779F007FC939 /* libz.1.2.5.tbd in Frameworks */,
+				7267FD1E1E803E56007FC939 /* libvpx.a in Frameworks */,
+				7267FD181E803D8E007FC939 /* libfdk-aac.1.dylib in Frameworks */,
+				7267FD161E803D63007FC939 /* libx264.148.dylib in Frameworks */,
+				7267FD091E803B35007FC939 /* CoreVideo.framework in Frameworks */,
+				7267FD101E803C03007FC939 /* CoreServices.framework in Frameworks */,
+				7267FD0B1E803B5F007FC939 /* AudioToolbox.framework in Frameworks */,
+				7267FD0A1E803B41007FC939 /* VideoToolbox.framework in Frameworks */,
+				7267FCF31E80318C007FC939 /* libbz2.tbd in Frameworks */,
+				7267FCD41E802298007FC939 /* libswscale.a in Frameworks */,
+				7267FCCE1E802279007FC939 /* libavcodec.a in Frameworks */,
+				7267FCCF1E802279007FC939 /* libavdevice.a in Frameworks */,
+				7267FCD01E802279007FC939 /* libavfilter.a in Frameworks */,
+				7267FCD11E802279007FC939 /* libavformat.a in Frameworks */,
+				7267FCD21E802279007FC939 /* libavutil.a in Frameworks */,
+				7267FCC61E802245007FC939 /* libiconv.2.4.0.tbd in Frameworks */,
+				7267FCC71E802245007FC939 /* libiconv.2.tbd in Frameworks */,
+				7267FCC81E802245007FC939 /* libiconv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7267FCAF1E80215C007FC939 = {
+			isa = PBXGroup;
+			children = (
+				7267FCBA1E80215C007FC939 /* avio_reading */,
+				7267FCB91E80215C007FC939 /* Products */,
+				7267FCC21E802244007FC939 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7267FCB91E80215C007FC939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7267FCB81E80215C007FC939 /* avio_reading */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7267FCBA1E80215C007FC939 /* avio_reading */ = {
+			isa = PBXGroup;
+			children = (
+				7267FCBB1E80215C007FC939 /* avio_reading.c */,
+			);
+			path = avio_reading;
+			sourceTree = "<group>";
+		};
+		7267FCC21E802244007FC939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7267FD371E817D85007FC939 /* Security.framework */,
+				7267FD351E817D43007FC939 /* SecurityFoundation.framework */,
+				7267FD311E817B60007FC939 /* libswresample.a */,
+				7267FD2E1E8179F3007FC939 /* libopus.a */,
+				7267FD2C1E8179B6007FC939 /* dylib1.o */,
+				7267FD2A1E81783C007FC939 /* CoreFoundation.framework */,
+				7267FD271E8177B9007FC939 /* libbz2.1.0.tbd */,
+				7267FD251E81779F007FC939 /* libz.1.2.5.tbd */,
+				7267FD211E803F8D007FC939 /* libpng16.16.dylib */,
+				7267FD1F1E803E8C007FC939 /* libopus.0.dylib */,
+				7267FD1D1E803E56007FC939 /* libvpx.a */,
+				7267FD1B1E803E00007FC939 /* DVDPlayback.framework */,
+				7267FD191E803DCC007FC939 /* libx264.a */,
+				7267FD171E803D8E007FC939 /* libfdk-aac.1.dylib */,
+				7267FD151E803D63007FC939 /* libx264.148.dylib */,
+				7267FD131E803C7B007FC939 /* libbz2.1.0.5.tbd */,
+				7267FD111E803C28007FC939 /* AudioUnit.framework */,
+				7267FD0F1E803C03007FC939 /* CoreServices.framework */,
+				7267FD041E80369B007FC939 /* dylib1.10.5.o */,
+				7267FD011E80362B007FC939 /* libsystem_coreservices.tbd */,
+				7267FCFF1E803413007FC939 /* SystemConfiguration.framework */,
+				7267FCFB1E803386007FC939 /* libsystem_asl.tbd */,
+				7267FCF61E8031DB007FC939 /* libcoretls_cfhelpers.tbd */,
+				7267FCF71E8031DB007FC939 /* libsystem_coretls.tbd */,
+				7267FCF41E8031CD007FC939 /* libcoretls.tbd */,
+				7267FCF21E80318C007FC939 /* libbz2.tbd */,
+				7267FCEF1E8030EC007FC939 /* libauto.tbd */,
+				7267FCEB1E8030CD007FC939 /* AudioVideoBridging.framework */,
+				7267FCEC1E8030CD007FC939 /* VideoDecodeAcceleration.framework */,
+				7267FCE71E803098007FC939 /* MediaToolbox.framework */,
+				7267FCE51E803038007FC939 /* CoreMIDI.framework */,
+				7267FCE31E802FCC007FC939 /* CoreAudioKit.framework */,
+				7267FCE11E802FAC007FC939 /* AVKit.framework */,
+				7267FCDF1E802F7F007FC939 /* VideoToolbox.framework */,
+				7267FCDD1E802F40007FC939 /* CoreVideo.framework */,
+				7267FCDB1E802DDF007FC939 /* CoreMedia.framework */,
+				7267FCD91E802D64007FC939 /* Automator.framework */,
+				7267FCD71E802D15007FC939 /* CoreAudio.framework */,
+				7267FCD51E802C2C007FC939 /* AudioToolbox.framework */,
+				7267FCD31E802298007FC939 /* libswscale.a */,
+				7267FCC91E802279007FC939 /* libavcodec.a */,
+				7267FCCA1E802279007FC939 /* libavdevice.a */,
+				7267FCCB1E802279007FC939 /* libavfilter.a */,
+				7267FCCC1E802279007FC939 /* libavformat.a */,
+				7267FCCD1E802279007FC939 /* libavutil.a */,
+				7267FCC31E802245007FC939 /* libiconv.2.4.0.tbd */,
+				7267FCC41E802245007FC939 /* libiconv.2.tbd */,
+				7267FCC51E802245007FC939 /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7267FCB71E80215C007FC939 /* avio_reading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7267FCBF1E80215C007FC939 /* Build configuration list for PBXNativeTarget "avio_reading" */;
+			buildPhases = (
+				7267FCB41E80215C007FC939 /* Sources */,
+				7267FCB51E80215C007FC939 /* Frameworks */,
+				7267FCB61E80215C007FC939 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = avio_reading;
+			productName = avio_reading;
+			productReference = 7267FCB81E80215C007FC939 /* avio_reading */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7267FCB01E80215C007FC939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = cuifei;
+				TargetAttributes = {
+					7267FCB71E80215C007FC939 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7267FCB31E80215C007FC939 /* Build configuration list for PBXProject "avio_reading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7267FCAF1E80215C007FC939;
+			productRefGroup = 7267FCB91E80215C007FC939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7267FCB71E80215C007FC939 /* avio_reading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7267FCB41E80215C007FC939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7267FCBC1E80215C007FC939 /* avio_reading.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7267FCBD1E80215C007FC939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7267FCBE1E80215C007FC939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7267FCC01E80215C007FC939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					/usr/local/Cellar/x264/r2601/lib,
+					"/usr/local/Cellar/fdk-aac/0.1.4/lib",
+					/usr/local/Cellar/libvpx/1.5.0/lib,
+					/usr/local/Cellar/opus/1.1.2/lib,
+					/usr/local/Cellar/libpng/1.6.21/lib,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+			};
+			name = Debug;
+		};
+		7267FCC11E80215C007FC939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					/usr/local/Cellar/x264/r2601/lib,
+					"/usr/local/Cellar/fdk-aac/0.1.4/lib",
+					/usr/local/Cellar/libvpx/1.5.0/lib,
+					/usr/local/Cellar/opus/1.1.2/lib,
+					/usr/local/Cellar/libpng/1.6.21/lib,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7267FCB31E80215C007FC939 /* Build configuration list for PBXProject "avio_reading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7267FCBD1E80215C007FC939 /* Debug */,
+				7267FCBE1E80215C007FC939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7267FCBF1E80215C007FC939 /* Build configuration list for PBXNativeTarget "avio_reading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7267FCC01E80215C007FC939 /* Debug */,
+				7267FCC11E80215C007FC939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7267FCB01E80215C007FC939 /* Project object */;
+}
